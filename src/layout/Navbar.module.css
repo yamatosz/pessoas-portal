@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(28, 26, 26);
+}
+
+nav a {
+    color: #FEFEFE;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+nav img {
+    max-width: 100px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.item {
+    margin-right: 1em;
+}
