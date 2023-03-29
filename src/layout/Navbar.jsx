@@ -10,7 +10,6 @@ function Navbar() {
             <ul className={styles.list}>
                 <li className={styles.item}><Link to="/">Home</Link></li>
                 <li className={styles.item}><Link to="/cadastro">Cadastro</Link></li>
-                <li className={styles.item}><Link to="/portal">Portal</Link></li>
             </ul>
         </nav>
 
